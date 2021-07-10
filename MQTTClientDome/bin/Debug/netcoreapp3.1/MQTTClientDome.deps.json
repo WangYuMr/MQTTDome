@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MQTTClientDome/1.0.0": {
+        "dependencies": {
+          "MQTTDome.Interface": "1.0.0",
+          "MQTTDomeMode": "1.0.0",
+          "MQTTnet": "3.0.16"
+        },
+        "runtime": {
+          "MQTTClientDome.dll": {}
+        }
+      },
+      "MQTTnet/3.0.16": {
+        "runtime": {
+          "lib/netcoreapp3.1/MQTTnet.dll": {
+            "assemblyVersion": "3.0.16.0",
+            "fileVersion": "3.0.16.0"
+          }
+        }
+      },
+      "MQTTDome.Interface/1.0.0": {
+        "runtime": {
+          "MQTTDome.Interface.dll": {}
+        }
+      },
+      "MQTTDomeMode/1.0.0": {
+        "runtime": {
+          "MQTTDomeMode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MQTTClientDome/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQTTnet/3.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzqmKwVjTpT/X5zoLuhBCHmYVSRAlxeXqExvHLqfbt5OfTHfrD/q62IteJbOtlNG/SepeRpm76dYUZSU5o8y1A==",
+      "path": "mqttnet/3.0.16",
+      "hashPath": "mqttnet.3.0.16.nupkg.sha512"
+    },
+    "MQTTDome.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQTTDomeMode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

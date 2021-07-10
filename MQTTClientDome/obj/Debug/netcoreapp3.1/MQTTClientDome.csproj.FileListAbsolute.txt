@@ -1,0 +1,14 @@
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTClientDome.deps.json
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTClientDome.dll
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTClientDome.pdb
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTDome.Interface.dll
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTDomeMode.dll
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTDome.Interface.pdb
+G:\代码\MQTT\MQTTClientDome\bin\Debug\netcoreapp3.1\MQTTDomeMode.pdb
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.csprojAssemblyReference.cache
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.AssemblyInfoInputs.cache
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.AssemblyInfo.cs
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.csproj.CoreCompileInputs.cache
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.csproj.CopyComplete
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.dll
+G:\代码\MQTT\MQTTClientDome\obj\Debug\netcoreapp3.1\MQTTClientDome.pdb

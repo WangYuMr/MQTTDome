@@ -1,0 +1,13 @@
+{
+  "IsServerMode": true,
+  "Server": {
+    "Port": 12345
+  },
+  "Client": {
+    "IP": "127.0.0.1",
+    "Port": 12345,
+    "Account": "test",
+    "PassWord": "1234",
+    "ClientId": "test1234.."
+  }
+}

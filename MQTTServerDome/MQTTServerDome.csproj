@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MQTTnet" Version="3.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MQTTDome.Interface\MQTTDome.Interface.csproj" />
+    <ProjectReference Include="..\MQTTDomeMode\MQTTDomeMode.csproj" />
+  </ItemGroup>
+
+</Project>

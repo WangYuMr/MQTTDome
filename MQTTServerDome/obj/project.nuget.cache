@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y2jE3/bFdbv1ExQfJLAQprnVS7pGV1SMLPU4E4JZ9/KnUEvk1KgEugv3VwwDnBpiaFvfANcERID2FuTcfJ2JSQ==",
+  "success": true,
+  "projectFilePath": "G:\\代码\\MQTT\\MQTTServerDome\\MQTTServerDome.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

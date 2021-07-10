@@ -1,0 +1,9 @@
+G:\代码\MQTT\MQTTDomeMode\bin\Debug\netcoreapp3.1\MQTTDomeMode.deps.json
+G:\代码\MQTT\MQTTDomeMode\bin\Debug\netcoreapp3.1\MQTTDomeMode.dll
+G:\代码\MQTT\MQTTDomeMode\bin\Debug\netcoreapp3.1\MQTTDomeMode.pdb
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.AssemblyInfoInputs.cache
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.AssemblyInfo.cs
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.csproj.CoreCompileInputs.cache
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.dll
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.pdb
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.csprojAssemblyReference.cache
