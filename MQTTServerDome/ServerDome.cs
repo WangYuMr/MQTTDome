@@ -5,6 +5,7 @@ using MQTTnet.Client.Receiving;
 using MQTTnet.Protocol;
 using MQTTnet.Server;
 using System;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace MQTTServerDome
@@ -22,10 +23,10 @@ namespace MQTTServerDome
             if (server == null||!server.IsStarted)
             {
 
-                    server = new MqttFactory().CreateMqttServer();
-                    MqttServerOptionsBuilder serverOptions = new MqttServerOptionsBuilder();
-                    //默认监听端口
-                    serverOptions.WithDefaultEndpointPort(model.Port);
+                server = new MqttFactory().CreateMqttServer();
+                MqttServerOptionsBuilder serverOptions = new MqttServerOptionsBuilder();
+               //默认监听端口
+                  serverOptions.WithDefaultEndpointPort(model.Port);
                 //校验客户端信息
                 serverOptions.WithConnectionValidator(client => {
                         string Account = client.Username;
@@ -42,14 +43,33 @@ namespace MQTTServerDome
                             Console.WriteLine("校验失败");
                         }
                     });
+                
                     //客户端发送消息监听
                     server.ApplicationMessageReceivedHandler = new MqttApplicationMessageReceivedHandlerDelegate(MessageReceivedHandler);
+                    server.UseApplicationMessageReceivedHandler(args=>{
+                        Console.WriteLine("===================================================");
+                        Console.WriteLine("收到消息:");
+                        Console.WriteLine($"客户端:{args.ClientId}");
+                        Console.WriteLine($"主题:{args.ApplicationMessage.Topic}");
+                        Console.WriteLine($"消息:{Encoding.UTF8.GetString(args.ApplicationMessage.Payload)}");
+                        Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+                        Console.WriteLine();
+                    });
                     //客户端连接事件
                     server.ClientConnectedHandler = new MqttServerClientConnectedHandlerDelegate(ClientConnectedHandler);
+                    server.UseClientConnectedHandler(args =>
+                    {
+                        Console.WriteLine($"{args.ClientId}此客户端已经连接到服务器");
+                    });
                     //客户端断开连接事件
                     server.ClientDisconnectedHandler = new MqttServerClientDisconnectedHandlerDelegate(ClientDisconnectedHandler);
+                    server.UseClientDisconnectedHandler(args => {
+                        Console.WriteLine($"断开连接的客户端:{args.ClientId}");
+                        Console.WriteLine($"断开连接类型:{args.DisconnectType.ToString()}");
+                    });
+
                     //客户端订阅主题事件
-                    server.ClientSubscribedTopicHandler = new MqttServerClientSubscribedHandlerDelegate(ClientSubscribedTopicHandler);
+                     server.ClientSubscribedTopicHandler = new MqttServerClientSubscribedHandlerDelegate(ClientSubscribedTopicHandler);
                     //客户端取消订阅主题事件
                     server.ClientUnsubscribedTopicHandler = new MqttServerClientUnsubscribedTopicHandlerDelegate(ClientUnsubscribedTopicHandler);
                     //服务器启动事件
@@ -79,7 +99,8 @@ namespace MQTTServerDome
         /// <param name="obj"></param>
         private void ClientUnsubscribedTopicHandler(MqttServerClientUnsubscribedTopicEventArgs obj)
         {
-            //throw new NotImplementedException();
+            Console.WriteLine($"客户端:{obj.ClientId}");
+            Console.WriteLine($"取消订阅主题:{obj.TopicFilter}");
         }
 
         /// <summary>
@@ -88,7 +109,8 @@ namespace MQTTServerDome
         /// <param name="obj"></param>
         private void ClientSubscribedTopicHandler(MqttServerClientSubscribedTopicEventArgs obj)
         {
-            //throw new NotImplementedException();
+            Console.WriteLine($"客户端:{obj.ClientId}");
+            Console.WriteLine($"订阅主题:{obj.TopicFilter.Topic}");
         }
 
         /// <summary>
@@ -97,7 +119,8 @@ namespace MQTTServerDome
         /// <param name="obj"></param>
         private void ClientDisconnectedHandler(MqttServerClientDisconnectedEventArgs obj)
         {
-          //  throw new NotImplementedException();
+            Console.WriteLine($"断开连接的客户端:{obj.ClientId}");
+            Console.WriteLine($"断开连接类型:{obj.DisconnectType.ToString()}"); 
         }
 
         /// <summary>
@@ -115,7 +138,13 @@ namespace MQTTServerDome
         /// <param name="obj"></param>
         private void MessageReceivedHandler(MqttApplicationMessageReceivedEventArgs obj)
         {
-           // throw new NotImplementedException();
+            Console.WriteLine("===================================================");
+            Console.WriteLine("收到消息:");
+            Console.WriteLine($"客户端:{obj.ClientId}");
+            Console.WriteLine($"主题:{obj.ApplicationMessage.Topic}");
+            Console.WriteLine($"消息:{Encoding.UTF8.GetString(obj.ApplicationMessage.Payload)}");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine();
         }
 
 

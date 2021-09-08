@@ -7,7 +7,7 @@ namespace MQTTDomeMode
     public   class MQTTConfigEntity
     {
        /// <summary>
-       /// 服务器模式?
+       /// 服务器模式 ture=服务器模式 false=客户端模式
        /// </summary>
         public bool IsServerMode { get; set; }
         /// <summary>

@@ -7,6 +7,9 @@ namespace MQTTDomeMode
 {
    public  class MQTTBaseEntity
     {
+        /// <summary>
+        /// 端口
+        /// </summary>
         public int Port { get; set; }
     }
 }
