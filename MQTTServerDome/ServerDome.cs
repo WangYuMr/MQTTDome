@@ -5,6 +5,7 @@ using MQTTnet.Client.Receiving;
 using MQTTnet.Protocol;
 using MQTTnet.Server;
 using System;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,7 +26,8 @@ namespace MQTTServerDome
 
                 server = new MqttFactory().CreateMqttServer();
                 MqttServerOptionsBuilder serverOptions = new MqttServerOptionsBuilder();
-               //默认监听端口
+                //默认监听端口
+                  //serverOptions.WithDefaultEndpointBoundIPAddress(IPAddress.Parse("0.0.0.0."));
                   serverOptions.WithDefaultEndpointPort(model.Port);
                 //校验客户端信息
                 serverOptions.WithConnectionValidator(client => {
@@ -46,27 +48,27 @@ namespace MQTTServerDome
                 
                     //客户端发送消息监听
                     server.ApplicationMessageReceivedHandler = new MqttApplicationMessageReceivedHandlerDelegate(MessageReceivedHandler);
-                    server.UseApplicationMessageReceivedHandler(args=>{
-                        Console.WriteLine("===================================================");
-                        Console.WriteLine("收到消息:");
-                        Console.WriteLine($"客户端:{args.ClientId}");
-                        Console.WriteLine($"主题:{args.ApplicationMessage.Topic}");
-                        Console.WriteLine($"消息:{Encoding.UTF8.GetString(args.ApplicationMessage.Payload)}");
-                        Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        Console.WriteLine();
-                    });
+                    //server.UseApplicationMessageReceivedHandler(args=>{
+                    //    Console.WriteLine("===================================================");
+                    //    Console.WriteLine("收到消息:");
+                    //    Console.WriteLine($"客户端:{args.ClientId}");
+                    //    Console.WriteLine($"主题:{args.ApplicationMessage.Topic}");
+                    //    Console.WriteLine($"消息:{Encoding.UTF8.GetString(args.ApplicationMessage.Payload)}");
+                    //    Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+                    //    Console.WriteLine();
+                    //});
                     //客户端连接事件
                     server.ClientConnectedHandler = new MqttServerClientConnectedHandlerDelegate(ClientConnectedHandler);
-                    server.UseClientConnectedHandler(args =>
-                    {
-                        Console.WriteLine($"{args.ClientId}此客户端已经连接到服务器");
-                    });
+                    //server.UseClientConnectedHandler(args =>
+                    //{
+                    //    Console.WriteLine($"{args.ClientId}此客户端已经连接到服务器");
+                    //});
                     //客户端断开连接事件
                     server.ClientDisconnectedHandler = new MqttServerClientDisconnectedHandlerDelegate(ClientDisconnectedHandler);
-                    server.UseClientDisconnectedHandler(args => {
-                        Console.WriteLine($"断开连接的客户端:{args.ClientId}");
-                        Console.WriteLine($"断开连接类型:{args.DisconnectType.ToString()}");
-                    });
+                    //server.UseClientDisconnectedHandler(args => {
+                    //    Console.WriteLine($"断开连接的客户端:{args.ClientId}");
+                    //    Console.WriteLine($"断开连接类型:{args.DisconnectType.ToString()}");
+                    //});
 
                     //客户端订阅主题事件
                      server.ClientSubscribedTopicHandler = new MqttServerClientSubscribedHandlerDelegate(ClientSubscribedTopicHandler);
