@@ -6,4 +6,5 @@ G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.AssemblyInfo.cs
 G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.csproj.CoreCompileInputs.cache
 G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.dll
 G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.pdb
-G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.csprojAssemblyReference.cache
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.GeneratedMSBuildEditorConfig.editorconfig
+G:\代码\MQTT\MQTTDomeMode\obj\Debug\netcoreapp3.1\MQTTDomeMode.csproj.AssemblyReference.cache

@@ -8,7 +8,6 @@ G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemG
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\MQTTDomeMode.dll
-G:\代码\MQTT\MQTTDome\obj\Debug\netcoreapp3.1\MQTTDome.csprojAssemblyReference.cache
 G:\代码\MQTT\MQTTDome\obj\Debug\netcoreapp3.1\MQTTDome.AssemblyInfoInputs.cache
 G:\代码\MQTT\MQTTDome\obj\Debug\netcoreapp3.1\MQTTDome.AssemblyInfo.cs
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\MQTTDome.exe
@@ -35,3 +34,5 @@ G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\MQTTDome.Interface.dll
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\MQTTDome.Interface.pdb
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\MQTTClientDome.dll
 G:\代码\MQTT\MQTTDome\bin\Debug\netcoreapp3.1\MQTTClientDome.pdb
+G:\代码\MQTT\MQTTDome\obj\Debug\netcoreapp3.1\MQTTDome.csproj.AssemblyReference.cache
+G:\代码\MQTT\MQTTDome\obj\Debug\netcoreapp3.1\MQTTDome.GeneratedMSBuildEditorConfig.editorconfig

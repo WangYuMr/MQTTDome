@@ -1,9 +1,9 @@
 G:\代码\MQTT\MQTTDome.Interface\bin\Debug\netcoreapp3.1\MQTTDome.Interface.deps.json
 G:\代码\MQTT\MQTTDome.Interface\bin\Debug\netcoreapp3.1\MQTTDome.Interface.dll
 G:\代码\MQTT\MQTTDome.Interface\bin\Debug\netcoreapp3.1\MQTTDome.Interface.pdb
-G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.csprojAssemblyReference.cache
 G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.AssemblyInfoInputs.cache
 G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.AssemblyInfo.cs
 G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.csproj.CoreCompileInputs.cache
 G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.dll
 G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.pdb
+G:\代码\MQTT\MQTTDome.Interface\obj\Debug\netcoreapp3.1\MQTTDome.Interface.GeneratedMSBuildEditorConfig.editorconfig
