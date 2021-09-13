@@ -76,16 +76,16 @@ private void StartedHandler(EventArgs obj)
 ### 4.我想知道有那些设备连接上了服务器,我该怎么做?
 
 ```c#
-   //客户端连接事件
-   server.ClientConnectedHandler = new MqttServerClientConnectedHandlerDelegate(ClientConnectedHandler);
-  /// <summary>
-  /// 客户端断开连接
-  /// </summary>
-  /// <param name="obj"></param>
-  private void ClientDisconnectedHandler(MqttServerClientDisconnectedEventArgs obj)
-  {
-      throw new NotImplementedException();
-  }
+//客户端连接事件
+server.ClientConnectedHandler = new MqttServerClientConnectedHandlerDelegate(ClientConnectedHandler);
+/// <summary>
+/// 客户端连接到服务器事件
+/// </summary>
+/// <param name="obj"></param>
+private void ClientConnectedHandler(MqttServerClientConnectedEventArgs obj)
+{
+  throw new NotImplementedException();
+}
 ```
 
 ```c#

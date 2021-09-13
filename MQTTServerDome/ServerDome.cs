@@ -131,7 +131,7 @@ namespace MQTTServerDome
         /// <param name="obj"></param>
         private void ClientConnectedHandler(MqttServerClientConnectedEventArgs obj)
         {
-          //  throw new NotImplementedException();
+           throw new NotImplementedException();
         }
 
         /// <summary>
