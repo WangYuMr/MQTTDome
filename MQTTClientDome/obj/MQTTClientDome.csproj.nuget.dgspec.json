@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\代码\\MQTT\\MQTTClientDome\\MQTTClientDome.csproj": {}
+    "I:\\代码\\WangYuMr\\MQTTDome\\MQTTClientDome\\MQTTClientDome.csproj": {}
   },
   "projects": {
-    "G:\\代码\\MQTT\\MQTTClientDome\\MQTTClientDome.csproj": {
+    "I:\\代码\\WangYuMr\\MQTTDome\\MQTTClientDome\\MQTTClientDome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\代码\\MQTT\\MQTTClientDome\\MQTTClientDome.csproj",
+        "projectUniqueName": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTClientDome\\MQTTClientDome.csproj",
         "projectName": "MQTTClientDome",
-        "projectPath": "G:\\代码\\MQTT\\MQTTClientDome\\MQTTClientDome.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\代码\\MQTT\\MQTTClientDome\\obj\\",
+        "projectPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTClientDome\\MQTTClientDome.csproj",
+        "packagesPath": "C:\\Users\\13446\\.nuget\\packages\\",
+        "outputPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTClientDome\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\13446\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\代码\\MQTT\\MQTTDome.Interface\\MQTTDome.Interface.csproj": {
-                "projectPath": "G:\\代码\\MQTT\\MQTTDome.Interface\\MQTTDome.Interface.csproj"
+              "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDome.Interface\\MQTTDome.Interface.csproj": {
+                "projectPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDome.Interface\\MQTTDome.Interface.csproj"
               },
-              "G:\\代码\\MQTT\\MQTTDomeMode\\MQTTDomeMode.csproj": {
-                "projectPath": "G:\\代码\\MQTT\\MQTTDomeMode\\MQTTDomeMode.csproj"
+              "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDomeMode\\MQTTDomeMode.csproj": {
+                "projectPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDomeMode\\MQTTDomeMode.csproj"
               }
             }
           }
@@ -67,21 +72,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\代码\\MQTT\\MQTTDome.Interface\\MQTTDome.Interface.csproj": {
+    "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDome.Interface\\MQTTDome.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\代码\\MQTT\\MQTTDome.Interface\\MQTTDome.Interface.csproj",
+        "projectUniqueName": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDome.Interface\\MQTTDome.Interface.csproj",
         "projectName": "MQTTDome.Interface",
-        "projectPath": "G:\\代码\\MQTT\\MQTTDome.Interface\\MQTTDome.Interface.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\代码\\MQTT\\MQTTDome.Interface\\obj\\",
+        "projectPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDome.Interface\\MQTTDome.Interface.csproj",
+        "packagesPath": "C:\\Users\\13446\\.nuget\\packages\\",
+        "outputPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDome.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\13446\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,6 +98,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -121,21 +131,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\代码\\MQTT\\MQTTDomeMode\\MQTTDomeMode.csproj": {
+    "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDomeMode\\MQTTDomeMode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\代码\\MQTT\\MQTTDomeMode\\MQTTDomeMode.csproj",
+        "projectUniqueName": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDomeMode\\MQTTDomeMode.csproj",
         "projectName": "MQTTDomeMode",
-        "projectPath": "G:\\代码\\MQTT\\MQTTDomeMode\\MQTTDomeMode.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\代码\\MQTT\\MQTTDomeMode\\obj\\",
+        "projectPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDomeMode\\MQTTDomeMode.csproj",
+        "packagesPath": "C:\\Users\\13446\\.nuget\\packages\\",
+        "outputPath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTDomeMode\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\13446\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -143,6 +157,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -175,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

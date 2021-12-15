@@ -159,3 +159,10 @@ client.UseDisconnectedHandler(args =>
 });
 ```
 
+### 4.我想知道怎样发送数据,我该怎么做?
+
+```C#
+    await client.PublishAsync("你想要的主题", "你需要发送的东西");
+    await client.PublishAsync("你想要的主题", Encoding.UTF8.GetBytes("你需要发送的东西").ToList());
+```
+

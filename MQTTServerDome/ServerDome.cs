@@ -78,6 +78,12 @@ namespace MQTTServerDome
                     server.StartedHandler = new MqttServerStartedHandlerDelegate(StartedHandler);
                     //服务器停止事件
                     server.StoppedHandler = new MqttServerStoppedHandlerDelegate(StoppedHandler);
+                    //服务端发送数据
+                    //await  server.PublishAsync("你想要的主题","你需要发送的东西");
+                    //var mqttApplicationMessage = new MqttApplicationMessage();
+                    //mqttApplicationMessage.Topic = "你想要的主题";
+                    //mqttApplicationMessage.Payload = Encoding.ASCII.GetBytes("你需要发送的东西");
+                    //await server.PublishAsync(mqttApplicationMessage);
                     //启动服务器
                     await server.StartAsync(serverOptions.Build());
             }

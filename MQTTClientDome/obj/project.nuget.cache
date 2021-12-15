@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PosTuJwIYvt+9yF4Om6fN99kMlAhctQqLRCikhI15Pzx5BO8EBVcJhq4GkK+qpzItBWPoyphf0xg9qLr7gC93w==",
+  "dgSpecHash": "FTW/HhInakJPFam1thWV8SlGnTFGCgcDjZRiHOI5MXuz8MMVT1YNzLI62Bz9tq9ZqHl2A0kL36iJGc0ycswlEw==",
   "success": true,
-  "projectFilePath": "G:\\代码\\MQTT\\MQTTClientDome\\MQTTClientDome.csproj",
+  "projectFilePath": "I:\\代码\\WangYuMr\\MQTTDome\\MQTTClientDome\\MQTTClientDome.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
+    "C:\\Users\\13446\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],
   "logs": []
 }

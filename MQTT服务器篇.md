@@ -221,3 +221,14 @@ server.ClientSubscribedTopicHandler = new MqttServerClientSubscribedHandlerDeleg
  }
 ```
 
+### 10.我想从MQTT服务器发送消息,我该怎么做?
+
+```c#
+  await server.PublishAsync("你想要的主题","你需要发送的东西");
+
+  var mqttApplicationMessage = new MqttApplicationMessage();
+  mqttApplicationMessage.Topic = "你想要的主题";
+  mqttApplicationMessage.Payload = Encoding.ASCII.GetBytes("你需要发送的东西");
+  await server.PublishAsync(mqttApplicationMessage);
+```
+

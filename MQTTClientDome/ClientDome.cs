@@ -11,6 +11,7 @@ using MQTTnet.Client.Subscribing;
 using MQTTnet.Protocol;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -91,6 +92,9 @@ namespace MQTTClientDome
                 //        Console.WriteLine("重连失败");
                 //    }
                 //});
+                //客户端发送消息
+                //await client.PublishAsync("你想要的主题", "你需要发送的东西");
+                //await client.PublishAsync("你想要的主题", Encoding.UTF8.GetBytes("你需要发送的东西").ToList());
                 //连接
                 await client.ConnectAsync(options);
             }
